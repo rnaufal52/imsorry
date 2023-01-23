@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Im sorry</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main-ctr" class="standard">
+      <!-- emoji standart -->
+      <div class="filterDiv standart item">
+        <div class="emoji emoji--wow">
+          <div class="emoji__face">
+            <div class="emoji__eyes"></div>
+            <div class="emoji__mouth"></div>
+          </div>
+        </div>
+      </div>
+      <!-- emoji sangat senang -->
+      <div class="filterDiv senang item">
+        <div class="emoji emoji--haha">
+          <div class="emoji__face">
+            <div class="emoji__eyes"></div>
+            <div class="emoji__mouth">
+              <div class="emoji__tongue"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- emoji senang -->
+      <div class="filterDiv ssenang item">
+        <div class="emoji emoji--yay">
+          <div class="emoji__face">
+            <div class="emoji__eyebrows"></div>
+            <div class="emoji__mouth"></div>
+          </div>
+        </div>
+      </div>
+      <!-- emoji marah -->
+      <div class="filterDiv marah item">
+        <div class="emoji emoji--angry">
+          <div class="emoji__face">
+            <div class="emoji__eyebrows"></div>
+            <div class="emoji__eyes"></div>
+            <div class="emoji__mouth"></div>
+          </div>
+        </div>
+      </div>
+      <p>Pilih emoji, untuk menggambarkan perasaan mu saat ini</p>
+      <div class="buttons-ctr" id="myDIV">
+        <button class="btn active" id="standart">standard</button>
+        <button class="btn" id="senang">Senang</button>
+        <button class="btn" id="ssenang">Sangat senang</button>
+        <button class="btn" id="marah">Marah</button>
+      </div>
+      <p>
+        Klik <b>Kirim Pesan</b> dibawah ini untuk mengirimkan pesan berdasarkan
+        emoji yang dipilih.
+        <br />
+        <br />
+        Pesan saat ini:
+        <br />
+        <input type="text" name="pesan" class="pesan" disabled />
+      </p>
+
+      <div class="buttons-ctr" id="myDIV">
+        <button class="btn-kirim" onclick="myFunction()">Kirim pesan</button>
+      </div>
+    </div>
+
+    <!-- script js -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="emoji.js"></script>
+    <script>
+      // function myFunction() {
+      //   if()
+      //   location.href = "https://wa.me/6289627905164?text="+ pesanwhatsapp;
+      // }
+    </script>
+  </body>
+</html>

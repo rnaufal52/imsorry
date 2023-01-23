@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Im'sorry</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@auroratide/typewritten-text/lib/style.css"
+    />
+  </head>
+  <body>
+    <!-- Text -->
+    <div id="main-ctr" class="standard">
+      <embed src="dance.gif" alt="" width="150" />
+      <p>
+        <typewritten-text letter-interval="80">
+          Hallo cewek manis
+          <br />
+          Hayo ngaku, siapa yang masih badmood nih. hahhaa
+          <br />
+          Sayang, maaf ya udah bikin kamu badmood. Ayok senyum dongggg.
+          <br />
+          Semoga permintaan maaf lewat
+          <strong>coding yang lumayan berantakan</strong> kamu terima ya :)
+        </typewritten-text>
+      </p>
+      <div class="buttons-ctr" id="myDIV">
+        <button class="show" id="senang" onclick="window.location='Emoji.html'">
+          Klik aku
+        </button>
+      </div>
+    </div>
+    <!-- javascript -->
+    <script
+      type="module"
+      src="https://unpkg.com/@auroratide/typewritten-text/lib/define.js"
+    ></script>
+    <script>
+      function muncul() {
+        const muncul = document.querySelector("#senang");
+        muncul.classList.remove("show");
+      }
+      setTimeout(muncul, 27000);
+    </script>
+  </body>
+</html>
